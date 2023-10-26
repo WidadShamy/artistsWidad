@@ -1,0 +1,222 @@
+/*
+Theme Name: Custom Plugin for Music 
+Text Domain: Custom Music
+Version: 1.0
+Description: Fancy music theme
+Tags: responsive, fancy
+Author: Widad Shamy
+*/
+
+/*Body*/
+body {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+}
+
+/*Header*/
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.header-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.header-menu li {
+    display: inline;
+    margin-right: 20px;
+    color: #0073e6; 
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-menu li {
+    display: inline;
+    margin-right: 20px;
+    color: #0073e6;
+}
+
+/* Hero section */
+.hero {
+    background-size: cover;
+    background-position: center;
+    color: #333; 
+    text-align: center;
+    padding: 100px 0;
+    
+}
+
+.hero h1 {
+    font-size: 36px;
+    color: #fff; 
+}
+
+.hero h2 {
+    font-size: 24px;
+    color: #fff;
+}
+
+.hero .button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff; 
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Artist list*/
+.artist-list {
+    list-style: none;
+}
+
+.artist-list li {
+    margin-bottom: 10px;
+}
+
+.artist-list a {
+    text-decoration: none;
+    color: #0073e6; 
+}
+
+/*contact form */
+.contact-page {
+    background: #333; 
+    color: #000; 
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.contact-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+form {
+    padding: 20px;
+    border: 1px solid #666; 
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px; 
+    border: 1px solid #666; 
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Privacy Page*/
+.page-template-privacy .entry-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.page-template-privacy .entry-content {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/*Terms & Conditions Page*/
+.page-template-terms .entry-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.page-template-terms .entry-content {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.archive {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.archive-title {
+    font-size: 24px;
+    color: #333;
+}
+
+.music-list, .artist-list {
+    margin-top: 20px;
+}
+
+.music-post, .artist-post {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-page {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.contact-title {
+    font-size: 24px;
+    color: #333;
+}
+
+.contact-info {
+    margin-top: 20px;
+    color: #555;
+}

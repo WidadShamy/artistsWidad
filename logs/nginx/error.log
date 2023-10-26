@@ -1,0 +1,1 @@
+2023/10/23 17:32:09 [error] 11684#2568: *2408 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: ::1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://127.0.0.1:10009", host: "localhost:10010", referrer: "http://localhost:10010/all-artists/"
